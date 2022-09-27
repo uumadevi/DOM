@@ -1,0 +1,121 @@
+body{
+    background-image: url(images/image2.jpg);
+    background-size: 100%;
+    font-family: sans-serif;
+    color:blue;
+    letter-spacing: 1px;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+#wrapper{
+    background-color: #eee;
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightpink;
+
+}
+
+#page-banner{
+    background-image: url(images/image1.jpg);
+    background-size: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#participants-list,
+#add-name {
+    margin: 50px;
+}
+#participants-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#participants-list li {
+    padding:20px;
+    border-left: 5px solid #ddd;
+    margin:20px 10px;
+}
+
+#participants-list li:hover {
+    border-color:rgba(0, 0, 0, 0.7);
+}
+
+.delete {
+    float: right;
+    background: pink;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover {
+    background: magenta;
+}
+
+#add-name {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-name input {
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 1px solid #acc;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding:10px;
+    width: 300px;
+    float: left;
+    clear:both;
+}
+
+#add-name button {
+    border: 1px solid green;
+    background: green;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-name button:hover {
+    background: darkgreen;
+}
+
+#add-name:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#add-name label {
+    line-height: 52px;
+}
+
